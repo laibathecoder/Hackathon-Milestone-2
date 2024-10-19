@@ -1,0 +1,100 @@
+.main-div{
+    background-color:lavender ;
+    width: 1070px;
+    padding: 50px;
+    margin: auto;
+    border-radius: 50px;
+    box-shadow: 2px 2px 9px black;
+    padding-left:70px ;
+}
+
+.contact-info-div,
+.edu-div,
+.work-div,
+.skills-div,
+.achive-div,
+.summary-div{
+    font-size: 20px;
+    color:darkslategray
+}
+.name-input,.mail-input,.number-input{
+    column-gap: 10px;
+    border-radius: 8px;
+    height: 23px;
+    width: 200px;
+}
+/* education */
+.study-input{
+    margin-top: 10px;
+    border-radius: 8px;
+    height: 23px;
+    width: 200px;
+}
+
+/* work */
+.work-box{
+    margin-top: 10px;
+    border-radius: 8px;
+    border-width: 2px;
+}
+
+/* skills */
+.skills-box{
+    margin-top: 10px;
+    border-radius: 8px;
+    border-width: 2px;
+}
+
+/* achivements */
+.award-input{
+    column-gap: 10px;
+    border-radius: 8px;
+    height: 23px;
+    width: 200px;
+}
+
+/* summary */
+.summary-txtarea{
+    margin-top: 10px;
+    border-radius: 8px;
+    border-width: 2px;
+}
+
+.submit-button{
+    height: 60px;
+    width: 140px;
+    margin-top: 20px;
+    margin-left: 900px;
+    background-color: cadetblue;
+    border-width: 3px;
+    font-size: larger;
+    color: black;
+    border-radius: 60px;
+    box-shadow: 5px 5px 6px gray;
+    cursor: pointer;
+    font-weight: bold;
+
+
+}
+.submit-button:active{
+    background-color: rgb(37, 108, 153);
+    color: black;
+    opacity : 0.7;
+}
+
+/* Dynamic Resume Bilder */
+
+#resumeOutput{
+    background-color:lavender ;
+    width: 1070px;
+    padding: 50px;
+    margin: auto;
+    border-radius: 50px;
+    box-shadow: 2px 2px 9px black;
+    padding-left:70px ;
+}
+#resume-output{
+    font-size: 20px;
+    color:black;  /*darkslategray */
+}
+

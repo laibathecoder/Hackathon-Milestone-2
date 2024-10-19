@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Make-Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: cadetblue;"> 
+
+    <div class="main-div" id="main-div">
+        <h1><u>DYNAMIC RESUME GENERATOR FORM</u></h1> 
+        
+        <form id="resume-form">
+            <h2><u>CONTACT INFORMATION:</u></h2>
+            <div class="contact-info-div">
+                <label class="name">
+                    <u>Full Name:</u>
+                    <input id="name-input" class="name-input" type="text" required>
+                </label>
+                <label>
+                    <u>Email Address:</u>
+                    <input id="mail-input" class="mail-input" type="email" required>
+                </label>
+                <label>
+                    <u>Phone Number:</u>
+                    <input id="number-input" class="number-input" type="text" required>
+                </label>
+            </div>
+    
+            <h2><u>EDUCATION:</u></h2>
+            <div class="edu-div">
+                <label>
+                    <u>Field of Study:</u>
+                    <input id="study-input" class="study-input" type="text" required>
+                </label>
+            </div>
+    
+            <h2><u>WORK EXPERIENCE:</u></h2>
+            <div class="work-div">
+                <label>
+                    <textarea id="work-box" class="work-box" rows="4" cols="50" placeholder="Write Here.." required></textarea>
+                </label>
+            </div>
+    
+            <h2><u>SKILLS:</u></h2>
+            <div class="skills-div">
+                <label>
+                    <textarea id="skills-box" class="skills-box" rows="4" cols="50" required></textarea>
+                </label>
+            </div>
+    
+            <h2><u>ACHIEVEMENTS:</u></h2>
+            <div class="achive-div">
+                <label>
+                    <u>Awards/Projects:</u>
+                    <input id="award-input" class="award-input" type="text" required>
+                </label>
+            </div>
+    
+            <h2><u>SUMMARY:</u></h2>
+            <div class="summary-div">
+                <label>
+                    <u>Summary of Resume:</u><br>
+                    <textarea id="summary-txtarea" class="summary-txtarea" rows="4" cols="50" placeholder="write summary of resume.." required></textarea>
+                </label>
+            </div>
+    
+            <button class="submit-button" type="submit">Submit</button>
+        </form>
+    </div>
+    <br />
+    <br />
+    <div id="resumeOutput"></div>
+
+    <script src="backend.js"></script>
+</body>
+</html>
